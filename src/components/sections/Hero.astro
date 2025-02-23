@@ -1,22 +1,9 @@
 ---
 import { basics } from "@cv";
 import Section from "@/components/Section.astro";
-import Mail from "@/icons/Mail.astro";
-import Phone from "@/icons/Phone.astro";
-import X from "@/icons/X.astro";
-import LinkedIn from "@/icons/LinkedIn.astro";
-import GitHub from "@/icons/GitHub.astro";
-import WorldMap from "@/icons/WorldMap.astro";
-import type { SocialIcon } from "@/types";
-
+import { Icon } from "astro-icon/components";
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
-
-const SOCIAL_ICONS: SocialIcon = {
-	GitHub,
-	LinkedIn,
-	X,
-};
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
 const linkedUrl = linkedInfo?.url;
@@ -30,9 +17,13 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 			<h1>{name}</h1>
 			<h2>{label}</h2>
 			<div class="flex items-center gap-2 pt-2 text-sm text-skin-muted">
-				<WorldMap />
+				<Icon class='print:hidden' name='mdi:world' width={20} height={20} />
 				{city}, {region}
 			</div>
+			<div class="print:hidden flex items-center  gap-2 pt-2 text-sm">
+				{email}
+			</div>
+
 			<footer class="print">
 				{printInfo}
 			</footer>
@@ -49,11 +40,16 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 								</div>
 							</div>
 							<button @click="copyToClipboard();" class="group flex h-8 w-9 cursor-pointer items-center justify-center rounded-md text-skin-muted hover:bg-skin-button-accent hover:text-skin-inverted [&>span]:hover:text-skin-inverted">
-								<svg x-show="copyNotification" class="h-4 w-4 stroke-current text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" x-cloak>
+								 <svg x-show="copyNotification" class="h-4 w-4 stroke-current text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" x-cloak>
 									<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 								</svg>
 								<span x-show="!copyNotification">
-									<Mail />
+									<Icon
+										class='print:hidden'
+										name='mdi:email'
+										width={20}
+										height={20}
+									/>
 								</span>
 							</button>
 						</div>
@@ -62,26 +58,25 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 				{
 					phone && (
 						<a href={`tel:${phone}`} title={`Call ${name} at ${phone}`} target="_blank" rel="noopener noreferrer">
-							<Phone />
+							<Icon class='print:hidden' name='mdi:phone' width={20} height={20} />
 						</a>
 					)
 				}
 				{
-					profiles.map(({ network, url }) => {
-						const Icon = SOCIAL_ICONS[network];
-
+					profiles.map(({ network, url, icon }) => {
 						return (
-							<a href={url} title={`Visit ${name} profile on ${network}`} target="_blank" rel="noopener noreferrer">
-								<Icon />
+							<a 
+							href={url} 
+							title={`Visit ${name} profile on ${network}`} 
+							target="_blank" 
+							rel="noopener noreferrer">
+							<Icon class="print:hidden" name={icon} width={20} height={20} /> 
 							</a>
 						);
 					})
 				}
 				<div class="no-print footer-button max-sm:hidden group flex h-8 w-9 cursor-pointer items-center justify-center rounded-md text-skin-hue hover:bg-skin-button-accent hover:text-skin-inverted [&>span]:hover:text-skin-inverted">
-					<svg xmlns="http://www.w3.org/2000/svg" class="icon h-6 w-6 icon-tabler icon-tabler-command"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-						<path d="M7 9a2 2 0 1 1 2 -2v10a2 2 0 1 1 -2 -2h10a2 2 0 1 1 -2 2v-10a2 2 0 1 1 2 2h-10"></path>
-					</svg>
+					<Icon name="ri:command-fill" class="w-5 h-5" />
 				</div>
 			</footer>
 		</div>

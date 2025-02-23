@@ -1,40 +1,45 @@
 ---
+import { Icon } from "astro-icon/components"
 import Section from "../Section.astro"
 import { work } from "@cv"
 
-import HTML from "@/icons/html.astro"
-import CSS from "@/icons/css.astro"
-import JavaScript from "@/icons/javascript.astro"
-import TypeScript from "@/icons/type.astro"
-import React from "@/icons/react.astro"
-import Node from "@/icons/node.astro"
-import MySQL from "@/icons/sql.astro"
-import Git from "@/icons/git.astro"
-import GitHub from "@/icons/GitHub.astro"
-import Tailwind from "@/icons/tailwind.astro"
-import Next from "@/icons/next.astro"
-import Swift from "@/icons/swift.astro"
-import SwiftUI from "@/icons/swiftui.astro"
-import Kotlin from "@/icons/kotlin.astro"
-import Flutter from "@/icons/flutter.astro"
+// import HTML from "@/icons/html.astro"
+// import CSS from "@/icons/css.astro"
+// import JavaScript from "@/icons/javascript.astro"
+// import TypeScript from "@/icons/type.astro"
+// import React from "@/icons/react.astro"
+// import Node from "@/icons/node.astro"
+// import MySQL from "@/icons/sql.astro"
+// import Git from "@/icons/git.astro"
+// import GitHub from "@/icons/GitHub.astro"
+// import Tailwind from "@/icons/tailwind.astro"
+// import Next from "@/icons/next.astro"
+// import Swift from "@/icons/swift.astro"
+// import SwiftUI from "@/icons/swiftui.astro"
+// import Kotlin from "@/icons/kotlin.astro"
+// import Flutter from "@/icons/flutter.astro"
+// import astro from "@/icons/AstroIcon.astro"
+// import Figma from "@/icons/Figma.astro"
 
-const SKILLS_ICONS: Record<string, any> = {
-  HTML,
-  CSS,
-  JavaScript,
-  TypeScript,
-  React,
-  Node,
-  MySQL,
-  Git,
-  GitHub,
-  Next,
-  Tailwind,
-  Swift,
-  SwiftUI,
-  Kotlin,
-  Flutter,
-}
+// const SKILLS_ICONS: Record<string, any> = {
+//   HTML,
+//   CSS,
+//   JavaScript,
+//   TypeScript,
+//   React,
+//   Node,
+//   MySQL,
+//   Git,
+//   GitHub,
+//   Next,
+//   Tailwind,
+//   Swift,
+//   SwiftUI,
+//   Kotlin,
+//   Flutter,
+//   astro,
+//   Figma
+// }
 ---
 <Section className={Astro.props.className} title="Experience">
   <ul class="flex flex-col">
@@ -60,9 +65,11 @@ const SKILLS_ICONS: Record<string, any> = {
                   )}
                   {url &&
                     <span class="inline-block text-skin-hue print:[&>svg]:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block w-4 h-4 ml-1 transition-transform translate-y-px shrink-0 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none" aria-hidden="true">
+                      {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block w-4 h-4 ml-1 transition-transform translate-y-px shrink-0 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none" aria-hidden="true">
                         <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
-                      </svg>
+                      </svg> */}
+                      <Icon name="ri:arrow-up-line" class="inline-block w-4 h-4 ml-1 transition-transform translate-y-px shrink-0 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none rotate-45" aria-hidden="true">
+                      </Icon>
                     </span>
                   }
                   </span>
@@ -116,12 +123,13 @@ const SKILLS_ICONS: Record<string, any> = {
                 
                 <button @click="expanded = ! expanded" class="print:hidden group/more w-fit cursor-pointer items-center justify-center gap-1.5 text-xs underline text-skin-muted transition-all hover:text-skin-base flex">
                   <span x-text="expanded ? 'Show less' : 'Show more'">Show more</span>
-                  <svg class="w-4 h-4 group-hover/more:translate-y-0.5 duration-200 ease-out" :class="{ 'rotate-180': expanded }" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                  {/* <svg class="w-4 h-4 group-hover/more:translate-y-0.5 duration-200 ease-out" :class="{ 'rotate-180': expanded }" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg> */}
+                  <Icon name="ri:arrow-up-s-line" class="w-4 h-4 group-hover/more:translate-y-0.5 duration-200 ease-out group-data-[expanded=true]:rotate-180" width={24} height={24}></Icon>
                 </button>
 
 
                 <ul class="flex print:hidden flex-wrap gap-2" aria-label="Technologies used">
-                  {skills && skills.map(skill => {
+                  {/* {skills && skills.map(skill => {
                     const iconName = skill === "Next.js" ? "Next" : skill
                     const Icon = SKILLS_ICONS[iconName]
                     return (
@@ -129,7 +137,14 @@ const SKILLS_ICONS: Record<string, any> = {
                         {Icon && <Icon />} <span>{skill}</span>
                       </li>
                     )
-                  })}
+                  })} */}
+                  {
+                    skills && Object.entries(skills).map(([label, icon]) => (
+                      <li class="bg-skin-button-accent/20 border-skin-hue/20 text-skin-hue print:p-0 print:bg-transparent print:text-zinc-800 flex gap-1 items-center border-solid print:border-none border rounded-md px-2 py-0.5 text-xs backdrop-blur-sm">
+                        {icon && <Icon name={icon} width={16} height={16} />} <span>{label}</span>
+                      </li>
+                    ))
+                  }
                 </ul>
 )}
               </div>
