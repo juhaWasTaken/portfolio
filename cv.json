@@ -1,4 +1,5 @@
 {
+  "pageLayout": "two-column",
   "basics": {
     "name": "Carlos Gallaga",
     "label": "Web Developer & Graphic Designer",
@@ -404,42 +405,22 @@
     "intro": "Some showcase of my graphic design skills",
     "list": [
       {
-        "image": "",
+        "image": "/src/components/assets/falling.jpg",
         "alt": "",
         "desc": ""
       },
       {
-        "image": "",
+        "image": "/src/components/assets/decay.jpg",
         "alt": "",
         "desc": ""
       },
       {
-        "image": "",
+        "image": "/src/components/assets/Angel.jpg",
         "alt": "",
         "desc": ""
       },
       {
-        "image": "",
-        "alt": "",
-        "desc": ""
-      },
-      {
-        "image": "",
-        "alt": "",
-        "desc": ""
-      },
-      {
-        "image": "",
-        "alt": "",
-        "desc": ""
-      },
-      {
-        "image": "",
-        "alt": "",
-        "desc": ""
-      },
-      {
-        "image": "",
+        "image": "/src/components/assets/brutalism-poster.jpg",
         "alt": "",
         "desc": ""
       }
