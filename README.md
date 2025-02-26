@@ -1,11 +1,14 @@
-## Print-friendly portfolio CV
+## My portfolio 
 
 ![preview](https://github.com/user-attachments/assets/44c47034-06e4-412a-b9dd-014593b32215)
 
-📄 About 
+📄 About
+--
+
 This project is refactored from the original [**dev-portfolio**](https://github.com/Smilesharks/dev-portfolio) project, thanks for his work.
 
 🛠️ Stack
+-- 
 
 - [**Astro**](https://astro.build/) - The next-gen web framework.
 - [**Typescript**](https://www.typescriptlang.org/) - JavaScript with type syntax.
