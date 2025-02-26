@@ -17,6 +17,7 @@ This project is refactored from the original [**dev-portfolio**](https://github.
 - [**Iconify**](https://iconify.design/) - Icon library with a set of 1,000+ icons.
 - [**FancyBox**](https://fancyapps.com/fancybox/) - Image preview gallery.
 
+-- 
 
 CV JSON schema from [**jsonresume.org**](https://jsonresume.org/schema/)
 
