@@ -360,7 +360,7 @@
     {
       "name": "Personal Portfolio",
       "isActive": true,
-      "description": "My old personal portfolio website to showcase my projects and skills in UX/UI design and development.",
+      "description": "Old web portfolio to showcase my projects and skills in UX/UI design and development.",
       "highlights": [
         "Built with Next.js, React and Tailwind CSS",
         "Includes a contact form and internalization support"
@@ -371,34 +371,35 @@
     {
       "name": "KV Maquinados Website",
       "isActive": true,
-      "description": "Developed company website for KV Maquinados, a small construction company based in Reynosa, Tamps.",
+      "description": "Developed KV Maquinados website, a small construction company based in Reynosa, Tamps.", 
       "highlights": [
-        "Built with Next.js, React, Typescript and Tailwind CSS",
+        "Built with Next.js, React, TypeScript and Tailwind CSS",
         "Responsive design with internalization and custom contact form"
       ],
       "url": "https://kv-maquinados.vercel.app/",
       "github": "https://github.com/juhaWasTaken/kv-maquinados"
     },
     {
-      "name": "Task Manager",
+      "name": "Product admin manager",
       "isActive": true,
-      "description": "A simple task management app to keep track of daily tasks.",
+      "description": "Administrative dashboard for a store's products, allowing to add, edit and delete products",
       "highlights": [
-        "Built with Node.js and MongoDB",
+        "Built with Next.js, React, TypeScript, Firebase and Tailwind CSS",
         "User authentication and CRUD operations"
       ],
-      "url": "https://taskmanager.com",
-      "github": "https://github.com"
+      "url": "https://product-admin-nextjs-tutorial-ten.vercel.app/",
+      "github": "https://github.com/juhaWasTaken/Product-admin-nextjs-tutorial"
     },
     {
-      "name": "E-commerce Site",
+      "name": "Kreatif Software",
       "isActive": true,
-      "description": "An online store built with Next.js and Stripe for payment processing.",
+      "description": "Design and developed a landing page, showing a company services and work done.",  
       "highlights": [
-        "Product management and shopping cart functionality",
-        "Secure payment integration"
+        "Built with Astro, TypeScript and Tailwind CSS",
+        "Responsive design with unique animations"
       ],
-      "url": "https://ecommerce.com"
+      "url": "https://kreaatif-software.netlify.app/",
+      "github": "https://github.com/juhaWasTaken/kreatif-software-example"
     }
   ],
   "images": {
