@@ -406,22 +406,22 @@
     "intro": "Some showcase of my graphic design skills",
     "list": [
       {
-        "image": "/src/components/assets/falling.jpg",
+        "image": "/assets/falling.jpg",
         "alt": "Poster with glowing aura",
         "desc": "Glowing aura poster"
       },
       {
-        "image": "/src/components/assets/decay.jpg",
+        "image": "/assets/decay.jpg",
         "alt": "Poster with monochromatic colors",
         "desc": "Monochromatic poster"
       },
       {
-        "image": "/src/components/assets/Angel.jpg",
+        "image": "/assets/Angel.jpg",
         "alt": "Poster for a streetwear brand",
         "desc": "Streetwear vintage poster"
       },
       {
-        "image": "/src/components/assets/brutalism-poster.jpg",
+        "image": "/assets/brutalism-poster.jpg",
         "alt": "Poster about Bersker",
         "desc": "Brutalism poster"
       }
