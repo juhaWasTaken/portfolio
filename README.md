@@ -1,6 +1,6 @@
 ## My portfolio 
 
-![preview](/public/assets/opengraph-image.png)
+![preview](/public/assets/preview.png)
 
 🛠️ Stack
 -- 
