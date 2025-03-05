@@ -407,23 +407,23 @@
     "list": [
       {
         "image": "/src/components/assets/falling.jpg",
-        "alt": "",
-        "desc": ""
+        "alt": "Poster with glowing aura",
+        "desc": "Glowing aura poster"
       },
       {
         "image": "/src/components/assets/decay.jpg",
-        "alt": "",
-        "desc": ""
+        "alt": "Poster with monochromatic colors",
+        "desc": "Monochromatic poster"
       },
       {
         "image": "/src/components/assets/Angel.jpg",
-        "alt": "",
-        "desc": ""
+        "alt": "Poster for a streetwear brand",
+        "desc": "Streetwear vintage poster"
       },
       {
         "image": "/src/components/assets/brutalism-poster.jpg",
-        "alt": "",
-        "desc": ""
+        "alt": "Poster about Bersker",
+        "desc": "Brutalism poster"
       }
     ]
   }
