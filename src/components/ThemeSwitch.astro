@@ -10,7 +10,7 @@ import { Icon } from 'astro-icon/components'
       class='cursor-pointer'
       aria-label='Toggle dark mode'>
       <i
-        class='flex items-center gap-1 text-sm font-medium leading-6 text-skin-base transition-transform ease-in-out group-hover/theme:rotate-45'>
+        class='flex items-center gap-1 text-sm font-medium leading-6 text-white transition-transform ease-in-out group-hover/theme:rotate-45'>
         <Icon
           name='ri:moon-fill'
           class='hidden dark:block'
@@ -22,13 +22,13 @@ import { Icon } from 'astro-icon/components'
     </button>
     <select
       id='themeSelect'
-      class='block w-full rounded-md border-0 bg-transparent py-1.5 pl-3 pr-10 text-skin-base ring-1 ring-inset ring-skin-muted focus:ring-2 focus:ring-skin-hue sm:text-sm sm:leading-6'>
-      <option value='red'>Red</option>
-      <option value='pink'>Pink</option>
-      <option value='orange'>Orange</option>
-      <option value='cyber'>Cyberpunk</option>
-      <option value='green'>Green</option>
-      <option value='blue'>Blue</option>
+      class='block w-full rounded-md border-0 bg-transparent py-1.5 pl-3 pr-10 text-white ring-1 ring-inset ring-skin-muted focus:ring-2 focus:ring-skin-hue sm:text-sm sm:leading-6'>
+      <option class="bg-neutral-800" value='red'>Red</option>
+      <option class="bg-neutral-800" value='pink'>Pink</option>
+      <option class="bg-neutral-800" value='orange'>Orange</option>
+      <option class="bg-neutral-800" value='cyber'>Cyberpunk</option>
+      <option class="bg-neutral-800" value='green'>Green</option>
+      <option class="bg-neutral-800" value='blue'>Blue</option>
     </select>
   </div>
 </div>
