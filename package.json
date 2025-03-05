@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/check": "0.4.1",
     "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/vercel": "^8.1.1",
     "@fancyapps/ui": "^5.0.36",
     "@iconify-json/file-icons": "^1.2.1",
     "@iconify-json/mdi": "^1.2.3",
