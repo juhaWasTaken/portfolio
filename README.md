@@ -1,6 +1,6 @@
 ## My portfolio 
 
-![preview](src/components/assets/preview.png)
+![preview](assets/opengraph-image.png)
 
 🛠️ Stack
 -- 
