@@ -403,7 +403,7 @@
     }
   ],
   "images": {
-    "intro": "Some showcase of my graphic design skills",
+    "intro": "A showcase of my graphic design skills",
     "list": [
       {
         "image": "/assets/falling.jpg",
@@ -411,39 +411,44 @@
         "desc": "Glowing aura poster"
       },
       {
-        "image": "/assets/decay.jpg",
-        "alt": "Poster with monochromatic colors",
-        "desc": "Monochromatic poster"
-      },
-      {
-        "image": "/assets/Angel.jpg",
-        "alt": "Poster for a streetwear brand",
-        "desc": "Streetwear vintage poster"
-      },
-      {
-        "image": "/assets/brutalism-poster.jpg",
-        "alt": "Poster about Bersker",
-        "desc": "Brutalism poster"
-      },
-      {
         "image": "/assets/magazine.jpg",
         "alt": "Magazine about Frank Ocean",
         "desc": "Magazine inspired by AnOther Magazine"
       },
       {
-        "image": "/assets/mosaic.jpg",
+        "image": "/assets/mosaic.webp",
         "alt": "Poster with pixels effect",
         "desc": "Pixels mosaic poster"
       },
       {
         "image": "/assets/im-here.jpg",
-        "alt": "Poster inspired in space movies",
-        "desc": "Poster inspired in space movies"
+        "alt": "Poster inspired by space movies",
+        "desc": "Poster inspired by space movies"
+      }
+    ]
+  },
+  "imagesUX": {
+    "intro": "A showcase of my ux design skills",
+    "list": [
+      {
+        "image": "/assets/GolfWebsite.jpg",
+        "alt": "Golf website design",
+        "desc": "Golf website design"
       },
       {
-        "image": "/assets/moodboard.jpg",
-        "alt": "Moodboard with red and orange colors",
-        "desc": "Moodboard"
+        "image": "/assets/Blog-Design.webp",
+        "alt": "Web design for writers",
+        "desc": "Minimalist design for writers"
+      },
+      {
+        "image": "/assets/Finance.webp",
+        "alt": "Designs for mobile banking apps",
+        "desc": "Banking designs"
+      },
+      {
+        "image": "/assets/RecordDesigns.jpg",
+        "alt": "Design for mobile music apps",
+        "desc": "The Record Design idea"
       }
     ]
   }
