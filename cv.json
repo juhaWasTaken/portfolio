@@ -424,6 +424,46 @@
         "image": "/assets/im-here.jpg",
         "alt": "Poster inspired by space movies",
         "desc": "Poster inspired by space movies"
+      },
+            {
+        "image": "/assets/decay.jpg",
+        "alt": "Poster black and white",
+        "desc": ""
+      },
+      {
+        "image": "/assets/bann.jpg",
+        "alt": "Banner for Facebook webpage",
+        "desc": "Banner for KV Maquinados Company"
+      },
+      {
+        "image": "/assets/cronos.jpg", 
+        "alt": "Poster about cronos",
+        "desc": "Cronos poster"
+      },
+      {
+        "image": "/assets/angels.jpg",
+        "alt": "Poster about a movie",
+        "desc": "Poster inspired by the movie Fallen Angels"
+      },
+            {
+        "image": "/assets/ventaMotos.jpg", 
+        "alt": "Flyer motorcycle sales",
+        "desc": "Motorcycle sales Flyer"
+      },
+      {
+        "image": "/assets/reality.jpg",
+        "alt": "Poster trying futuristic style",
+        "desc": ""
+      },
+            {
+        "image": "/assets/songsAbout.jpg", 
+        "alt": "Poster about Begin Again Movie",
+        "desc": "Poster inspired by the movie Begin Again"
+      },
+      {
+        "image": "/assets/brutalism.jpg",
+        "alt": "Poster using brutalism style",
+        "desc": "Brutalism style poster"
       }
     ]
   },
