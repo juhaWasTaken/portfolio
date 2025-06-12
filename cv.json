@@ -449,6 +449,26 @@
         "image": "/assets/RecordDesigns.jpg",
         "alt": "Design for mobile music apps",
         "desc": "The Record Design idea"
+      },
+      {
+        "image": "/assets/ux.jpg",
+        "alt": "Design about Real estate agency",
+        "desc": "Real estate design"
+      },
+      {
+        "image": "/assets/ux2.jpg",
+        "alt": "Mobile design for a hospital",
+        "desc": "Hospital directory design"
+      },
+      {
+        "image": "/assets/ux3.jpg",
+        "alt": "Designs inspired by the Ikea store",
+        "desc": "Furniture store designs"
+      },
+      {
+        "image": "/assets/ux5.jpg",
+        "alt": "Design about a jewelry online store",
+        "desc": "Jewelry store design"
       }
     ]
   }
