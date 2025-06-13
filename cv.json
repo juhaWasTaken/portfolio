@@ -424,6 +424,26 @@
         "image": "/assets/mosaic.webp", 
         "alt": "Poster about Begin Again Movie",
         "desc": "Poster inspired by the movie Begin Again"
+      },
+            {
+        "image": "/assets/magazine.jpg",
+        "alt": "Poster with glowing aura",
+        "desc": "Glowing aura poster"
+      },
+      {
+        "image": "/assets/reality.jpg",
+        "alt": "Magazine about Frank Ocean",
+        "desc": "Magazine inspired by AnOther Magazine"
+      },
+      {
+        "image": "/assets/im-here.jpg",
+        "alt": "Poster about a movie",
+        "desc": "Poster inspired by the movie Fallen Angels"
+      },
+      {
+        "image": "/assets/cronos.jpg", 
+        "alt": "Poster about Begin Again Movie",
+        "desc": "Poster inspired by the movie Begin Again"
       }
     ]
   },
