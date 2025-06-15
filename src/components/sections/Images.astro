@@ -2,12 +2,22 @@
 import { Image } from "astro:assets";
 import Section from "../Section.astro";
 
-import CV from "@cv";
-const images = CV.images!;
+import graphicDesignImages from "../../assets/graphic-design";
+const images = graphicDesignImages;
+
+// import CV from "@cv";
+// const images = CV.images!;
 ---
 
 <Section className={Astro.props.className} title="Graphic Design Gallery">
-  {images?.intro && <p class="font-mono ml-3 text-skin-muted">{images.intro}</p>}
+  {
+    images?.intro && 
+    <p class=" ml-3 text-skin-muted">
+      {images.intro} 
+      <span class="italic text-sm text-skin-muted/75 underline"> 
+        (click to see full size)
+      </span>  
+    </p>}
   <div
     class="grid grid-cols-1 gap-2 p-2 pt-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
   >
@@ -15,7 +25,7 @@ const images = CV.images!;
       images.list.map(({ image, alt, desc }) => (
        <div class="relative overflow-hidden rounded-lg border border-skin-hue/20 bg-skin-button-accent/20" style="height: 0; padding-bottom: 100%;">
           <a
-            href={image}
+            href={image.src}
             data-fancybox="gallery"
             data-caption={desc}
             class="block aspect-square"
