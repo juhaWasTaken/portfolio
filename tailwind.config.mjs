@@ -1,3 +1,4 @@
+/** @type {import('tailwindcss').Config} */
 function withOpacity(variableName) {
   return ({ opacityValue }) => {
     if (opacityValue !== undefined) {
@@ -12,6 +13,9 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['"Montserrat"', 'sans-serif'],
+      },
       textColor: {
         skin: {
           base: withOpacity("--color-text-base"),

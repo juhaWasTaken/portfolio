@@ -5,9 +5,8 @@
     "label": "Web & Graphic Designer",
     "image": "/me_avatar.jpg",
     "email": "carlos.gallagav@gmail.com",
-    "phone": "+52 899-878-4710",
     "url": "https://carlosgav.com",
-    "summary": "Born in 2003. I primarily work as a Web Desginer & Developer, enjoying the creative process and working with various technologies. Currently seeking opportunities to further develop my skills in a professional setting.",
+    "summary": "Born in 2003. I primarily work as a Graphic & Web Designer. Driven by passion, powered by creativity, and fueled by coffee (lots of it). Currently seeking opportunities to further develop my skills in a professional setting.", 
     "theme": "default",
     "location": {
       "address": "",
@@ -55,16 +54,17 @@
         "Improved website traffic and interaction through strategic SEO and UI/UX optimization."
       ],
       "skills": {
+        "Figma": "simple-icons:figma",
+        "Adobe Creative Suite": "file-icons:adobe-creativecloud",
+        "UI/UX Design": "mdi:target-user",
         "Astro": "simple-icons:astro",
         "HTML": "simple-icons:html5",
         "CSS": "ri:css3-fill",
-        "JavaScript": "simple-icons:javascript",
         "Tailwind": "mdi:tailwind",
         "TypeScript": "simple-icons:typescript",
         "Git": "mdi:git",
         "GitHub": "mdi:github",
-        "SEO": "",
-        "UI/UX Design": ""
+        "SEO": "ri:seo-line"
       }
     },
     {
@@ -88,17 +88,18 @@
         "Successfully increased online client inquiries by 30% through an intuitive contact form."
       ],
       "skills": {
+        "Figma": "simple-icons:figma",
+        "Adobe Creative Suite": "file-icons:adobe-creativecloud",
+        "UI/UX Design": "mdi:target-user",
         "React": "mdi:react",
         "HTML": "simple-icons:html5",
         "Next.js": "ri:nextjs-line",
-        "CSS": "ri:css3-fill",
         "Tailwind": "mdi:tailwind",
-        "JavaScript": "simple-icons:javascript",
         "TypeScript": "simple-icons:typescript",
         "Git": "mdi:git",
         "GitHub": "mdi:github",
-        "UI/UX Design": "",
-        "SEO": ""
+        "Vercel": "simple-icons:vercel",
+        "SEO": "ri:seo-line"
       }
     },
     {
@@ -124,8 +125,8 @@
       "skills": {
         "Figma": "simple-icons:figma",
         "Adobe Creative Suite": "file-icons:adobe-creativecloud",
-        "Graphic Design": "",
-        "UI/UX": ""
+        "Graphic Design": "mdi:paint-outline",
+        "UI/UX Design": "mdi:target-user"
       }
     }
   ],
@@ -212,17 +213,6 @@
       ]
     },
     {
-      "name": "Node",
-      "icon": "ri:nodejs-line",
-      "level": "Beginner",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
-      ]
-    },
-    {
       "name": "Git",
       "icon": "mdi:git",
       "level": "Intermediate",
@@ -241,16 +231,6 @@
         "Collaboration",
         "Source Code",
         "Git"
-      ]
-    },
-    {
-      "name": "Gitlab",
-      "icon": "mdi:gitlab",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
       ]
     },
     {
@@ -310,22 +290,34 @@
       "icon": "simple-icons:framer",
       "level": "Intermediate",
       "keywords": [
-        "Web Development",
         "Web Design",
+        "Web Development",
         "Frontend",
-        "UI"
+        "UI/UX Design"
       ]
     },
     {
-      "name": "Linux",
-      "icon": "simple-icons:linux",
+      "name": "Webflow",
+      "icon": "simple-icons:webflow",
       "level": "Beginner",
       "keywords": [
-        "Operating System",
-        "Linux",
-        "Unix"
+        "Web Design",
+        "Web Development",
+        "Frontend",
+        "UX/UI Design"
       ]
-    }, 
+    },
+    {
+      "name": "Excalidraw",
+      "icon": "simple-icons:excalidraw",
+      "level": "Beginner",
+      "keywords": [
+        "Web Design",
+        "Web Development",
+        "Frontend",
+        "UX/UI Design"
+      ]
+    },
     {
       "name": "Vercel",
       "icon": "simple-icons:vercel",
@@ -343,8 +335,35 @@
         "Serverless",
         "Static Site Hosting"
       ]
+    },
+    {
+      "name": "SEO",
+      "icon": "ri:seo-line",
+      "level": "Beginner",
+      "keywords": [
+        "SEO",
+        "Search Engine Optimization"
+      ]
+    },
+    {
+      "name": "Graphic Design",
+      "icon": "mdi:paint-outline",
+      "level": "Intermediate",
+      "keywords": [
+        "Graphic Design",
+        "UI/UX Design",
+        "Web Design"
+      ]
+    },
+    {
+      "name": "UI/UX Design",
+      "icon": "mdi:target-user",
+      "level": "Intermediate",
+      "keywords": [
+        "UI/UX Design",
+        "Web Design"
+      ]
     }
-
   ],
   "languages": [
     {
@@ -369,7 +388,7 @@
       "github": "https://github.com/juhaWasTaken/portfolio-dev"
     },
     {
-      "name": "KV Maquinados Website",
+      "name": "KV Maquinados",
       "isActive": true,
       "description": "Developed KV Maquinados website, a small construction company based in Reynosa, Tamps.", 
       "highlights": [
@@ -378,75 +397,8 @@
       ],
       "url": "https://kv-maquinados.vercel.app/",
       "github": "https://github.com/juhaWasTaken/kv-maquinados"
-    },
-    {
-      "name": "Product admin manager",
-      "isActive": true,
-      "description": "Administrative dashboard for a store's products, allowing to add, edit and delete products",
-      "highlights": [
-        "Built with Next.js, React, TypeScript, Firebase and Tailwind CSS",
-        "User authentication and CRUD operations"
-      ],
-      "url": "https://product-admin-nextjs-tutorial-ten.vercel.app/",
-      "github": "https://github.com/juhaWasTaken/Product-admin-nextjs-tutorial"
-    },
-    {
-      "name": "Kreatif Software",
-      "isActive": true,
-      "description": "Design and developed a landing page, showing a company services and work done.",  
-      "highlights": [
-        "Built with Astro, TypeScript and Tailwind CSS",
-        "Responsive design with unique animations"
-      ],
-      "url": "https://kreaatif-software.netlify.app/",
-      "github": "https://github.com/juhaWasTaken/kreatif-software-example"
     }
   ],
-  "images": {
-    "intro": "A showcase of my graphic design skills",
-    "list": [
-      {
-        "image": "/assets/falling.jpg",
-        "alt": "Poster with glowing aura",
-        "desc": "Glowing aura poster"
-      },
-      {
-        "image": "/assets/songsAbout.jpg",
-        "alt": "Magazine about Frank Ocean",
-        "desc": "Magazine inspired by AnOther Magazine"
-      },
-      {
-        "image": "/assets/angels.jpg",
-        "alt": "Poster about a movie",
-        "desc": "Poster inspired by the movie Fallen Angels"
-      },
-      {
-        "image": "/assets/mosaic.webp", 
-        "alt": "Poster about Begin Again Movie",
-        "desc": "Poster inspired by the movie Begin Again"
-      },
-            {
-        "image": "/assets/magazine.jpg",
-        "alt": "Poster with glowing aura",
-        "desc": "Glowing aura poster"
-      },
-      {
-        "image": "/assets/reality.jpg",
-        "alt": "Magazine about Frank Ocean",
-        "desc": "Magazine inspired by AnOther Magazine"
-      },
-      {
-        "image": "/assets/im-here.jpg",
-        "alt": "Poster about a movie",
-        "desc": "Poster inspired by the movie Fallen Angels"
-      },
-      {
-        "image": "/assets/cronos.jpg", 
-        "alt": "Poster about Begin Again Movie",
-        "desc": "Poster inspired by the movie Begin Again"
-      }
-    ]
-  },
   "imagesUX": {
     "intro": "A showcase of my ux design skills",
     "list": [
