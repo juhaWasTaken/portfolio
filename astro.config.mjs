@@ -20,4 +20,7 @@ export default defineConfig({
       enabled: true,
     }
   }),
+  image: {
+    formats: ['webp', 'avif'],
+  }
 });

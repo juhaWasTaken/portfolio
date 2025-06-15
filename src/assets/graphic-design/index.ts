@@ -3,7 +3,7 @@ import cronos from "./cronos.jpg";
 import falling from "./falling.jpg";
 import imHere from "./im-here.jpg";
 import magazine from "./magazine.jpg";
-import mosaic from "./mosaic.webp";
+import mosaic from "./mosaic.jpg";
 import reality from "./reality.jpg";
 import songsAbout from "./songsAbout.jpg";
 
